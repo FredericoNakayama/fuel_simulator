@@ -26,6 +26,20 @@ class FuelSimulatorScreen extends StatefulWidget {
 class _FuelSimulatorScreenState extends State<FuelSimulatorScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const Scaffold(
+      body: SafeArea(
+        child: Padding(
+          padding: 
+            const EdgeInsets.all(24),
+          child: Column(
+            crossAxisAlignment: 
+              CrossAxisAlignment.start,
+            children: [
+
+              ],
+            ),
+        ),
+      ),
+    );
   }
 }
